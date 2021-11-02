@@ -1,0 +1,45 @@
+const template = {
+  firstStep: {
+    I: input, 
+    O: output, 
+    C: constraints,
+    E: edge cases,
+  },
+  secondStep: {
+    DS: '',
+    Alg: '',
+    bruteForce: solution = () => {
+        // pseudo code
+    }
+    time: O(),
+    space: O()
+  }
+
+  thirdStep: {
+    DS: '',
+    Alg: '',
+    optimalSolution: solution = () => {
+        // pseudo code
+    },
+    time: O(),
+    space: O(),
+  },
+  fourthStep: {
+    actualSolution: () => {
+      /// Actual Code
+    }
+  },
+  fifthStep: {
+    testCases: (givenInput, expectedOutput, func) => {
+
+      const result = func(givenInput)
+      if(result === expectedOutput) {
+         println(`SUCCESS(O)`)
+      } else {
+         println(`FAILED(X)`)
+      }
+      
+    }
+  }
+
+}
